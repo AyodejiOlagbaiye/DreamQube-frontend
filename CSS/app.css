@@ -16,13 +16,13 @@ body {
 
 .container {
     background-color: white;
-    padding: 30px 25px;
+    padding: 50px 40px;
     width: 300px;
     border-radius: 4px;
 }
 
 label {
-    font-size: medium;
+    font-size: smaller;
 }
 
 input {
