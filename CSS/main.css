@@ -57,13 +57,31 @@ a {
     font-weight: bold;
 }
 
-button {
+#btn-topright {
     color: white;
-    background-color: green;
+    background-color: #88D098;
     border: none;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 5px;
+    width: 150px;
+    /* position: absolute; */
+    /* margin-bottom: 20px; */
+    /* display: flex;
+    align-self: center;
+    justify-self: center; */
 }
+
+img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.flag {
+    width: 20px;
+    height: 20px;
+}
+
 
 main {
     display: flex;
@@ -77,7 +95,7 @@ main {
 }
 
 .hero {
-    flex: 2;
+    flex: 1;
 }
 
 .hero p {
@@ -88,11 +106,19 @@ main {
     font-size: xx-large;
 }
 
+#btn-rightmain {
+    color: white;
+    background-color:#88D098;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
 .button {
     flex: 1;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     /* background-color: hotpink; */
 
 }
